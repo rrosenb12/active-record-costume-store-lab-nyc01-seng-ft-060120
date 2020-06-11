@@ -19,5 +19,6 @@ class CreateCostumes < ActiveRecord::Migration[4.2]
       t.float :price
 
       t.timestamps null: false
+    end
   end
 end
